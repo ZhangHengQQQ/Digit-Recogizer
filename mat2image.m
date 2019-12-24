@@ -1,5 +1,6 @@
 clear
-load handwritten
+load handWrittenTrain
+load handWrittenTest
 
 trainFolder = [cd,'/trainSet']; 
 mkdir(trainFolder);
